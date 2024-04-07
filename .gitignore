@@ -1,0 +1,27 @@
+# Flutter/Dart specific
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+build/
+
+# Android specific
+**/android/**/build/
+**/android/.gradle/
+**/android/captures/
+
+# iOS specific
+**/ios/**/.generated/
+**/ios/Flutter/Debug.xcconfig
+**/ios/Flutter/Release.xcconfig
+**/ios/Runner.xcodeproj/project.xcworkspace/xcuserdata/
+**/ios/Runner.xcworkspace/xcshareddata/
+
+# Other
+*.iml
+*.log
+.DS_Store
+.idea/
+.vscode/
